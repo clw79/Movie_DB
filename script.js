@@ -1,4 +1,6 @@
+require('dotenv').config();
 
+const apiKey = process.env.API_KEY;
 const movieNameRef = document.getElementById("movie-name");
 const searchBtn = document.getElementById("search-btn");
 const result = document.getElementById("result");
@@ -7,7 +9,7 @@ const result = document.getElementById("result");
 //Fetching data from api
 let getMovie = () => {
     let movieName = movieNameRef.value;
-    let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+    let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${apiKey}`;
     //if search bar is empty
     if (movieName.length <= 0) {
         result.innerHTML = `<h3 class="msg">Please Enter A Movie Name</h3>`;
