@@ -9,7 +9,7 @@ const result = document.getElementById("result");
 //Fetching data from api
 let getMovie = () => {
     let movieName = movieNameRef.value;
-    let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${API_KEY}`;
+    let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${API_KEY}`;
     //if search bar is empty
     if (movieName.length <= 0) {
         result.innerHTML = `<h3 class="msg">Please Enter A Movie Name</h3>`;
