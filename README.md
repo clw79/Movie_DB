@@ -1,19 +1,19 @@
 # 📽️ Movie_DB
 
-A clean and simple web app that fetches and displays popular movies using The Movie Database (TMDB) API. Built with vanilla JavaScript, HTML, and CSS—no frameworks, just raw front-end power.
+A clean and simple web app that fetches and displays movie data using the OMDb API. Built with vanilla JavaScript, HTML, and CSS—no frameworks, no fluff, just the good stuff.
 
 ---
 
 ## 🚀 Live Demo
 
-[Click here to see it in action](#) *(Add your Netlify/Vercel link here if hosted)*
+<a href="https://movie-db-clw79.netlify.app/" target="_blank">Check it out here</a>
 
 ---
 
 ## 🛠️ Features
 
-- 🔍 Fetches real-time data from TMDB API
-- 🎞️ Displays popular movies with titles, posters, and ratings
+- 🔍 Fetches real-time movie info from the OMDb API
+- 🎞️ Displays movies with titles, posters, and other data
 - 💻 Responsive layout
 - ☁️ Lightweight and beginner-friendly—no frameworks or bundlers
 
@@ -24,7 +24,7 @@ A clean and simple web app that fetches and displays popular movies using The Mo
 - HTML5  
 - CSS3  
 - JavaScript (ES6+)  
-- [TMDB API](https://www.themoviedb.org/documentation/api)
+- [OMDb API](https://www.omdbapi.com/)
 
 ---
 
@@ -35,3 +35,26 @@ A clean and simple web app that fetches and displays popular movies using The Mo
    ```bash
    git clone https://github.com/clw79/Movie_DB.git
    cd Movie_DB
+
+---
+
+## 🧪 Future Plans
+
+- Add search functionality for any movie  
+- Show more movie details (plot, rating, cast, etc.)  
+- Add error handling and loading states  
+- Deploy backend using Node to securely store API keys (if needed)  
+
+---
+
+## 🙌 Acknowledgments
+
+- [OMDb API](https://www.omdbapi.com/) for the movie data  
+- Inspiration from personal learning goals and hands-on practice  
+
+---
+
+## 🧑‍💻 Author
+
+**Christopher Williams**  
+[GitHub](https://github.com/clw79) | [LinkedIn](https://www.linkedin.com/in/clwilliamsdev)
